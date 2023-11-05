@@ -1,0 +1,82 @@
+body {
+    background-image: url("images/game_background.jpg");
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    color:white;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    color: aqua;
+    text-align: center;
+}
+
+#sudoku:hover, #snake:hover, #tic_tac_toe:hover, #chess:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+p:hover{
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+
+#games{
+    position: relative;
+    left: 50px;
+    text-align: left;
+}
+
+#game{
+    display: inline-block;
+    margin: 20px;
+}
+
+#sudoku{
+    width: 175px;
+    height: 175px;
+    background-image: url('images/sudoku.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tic_tac_toe{
+    width: 175px;
+    height: 175px;
+    background-image: url('images/tic_tac_toe.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#snake{
+    width: 175px;
+    height: 175px;
+    background-image: url('images/snake.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#chess{
+    width: 175px;
+    height: 175px;
+    background-image: url('images/chess.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#block{
+    width: 175px;
+    height: 175px;
+    background-image: url('images/block.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

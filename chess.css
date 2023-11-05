@@ -1,0 +1,60 @@
+body {
+    background-image: url("images/game_background.jpg");
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#head{
+    color:white;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: aqua;
+}
+
+hr{
+    width: 500px;
+}
+
+#board{
+    width: 437px;
+    height: 436px;
+    margin: 0 auto;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 53px;
+    height: 53px;
+    margin: .5px;
+    box-shadow: 2px 2px 5px rgb(253, 252, 252);
+}
+
+.color{
+    background-color: rgb(87, 86, 86);
+}
+
+#choice{
+    position: absolute;
+    display: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 150px;
+    color: silver;
+    text-align: center;
+    left: 46%;
+}
+
+#reset{
+    display: none;
+}
